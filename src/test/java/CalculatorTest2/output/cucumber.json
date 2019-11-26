@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T03:55:23.380Z",
+        "line": 5,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1196300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 50 in calculator.",
+            "match": {
+              "location": "ImpCal2.i_press_50()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press add.",
+            "match": {
+              "location": "ImpCal2.i_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have entered 50 in the calculator.",
+            "match": {
+              "location": "ImpCal2.i_enter_50()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press equal in the calculator.",
+            "match": {
+              "location": "ImpCal2.i_press_equal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get the result as 100.",
+            "match": {
+              "location": "ImpCal2.i_get_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "  I want to test add feaure in calculator",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:CalculatorTest2/cAL2.feature",
+    "tags": []
+  }
+]
